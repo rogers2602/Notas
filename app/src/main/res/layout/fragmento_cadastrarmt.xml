@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Nome da Matéria:"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Matéria:"
+            android:ems="10"
+            android:id="@+id/editText1materiaedit1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Nº de notas: "
+           />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:text="Selecionar" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Nota 1:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView21"
+
+
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/textView31" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:hint="Sua nota:"
+                        android:ems="10"
+                        android:id="@+id/nota1edit1"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:hint="Peso da nota:"
+                        android:ems="10"
+                        android:id="@+id/peso1edit1"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/TextCx11"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota2ed1"
+                        android:text="Nota 2:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/Caixa1ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:hint="Sua nota:"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota2edit1"
+                        />
+
+                    <EditText
+                        android:hint="Peso da nota:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso2edit1"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/TextCx21"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota3ed1"
+                        android:text="Nota 3:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/Caixa2ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:hint="Sua nota:"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota3edit1"
+                        />
+
+                    <EditText
+                        android:hint="Peso da nota:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso3edit1"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/TextCx31"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota4ed1"
+                        android:text="Nota 4:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/Caixa3ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:hint="Sua nota:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota4edit1"
+                        />
+
+                    <EditText
+                        android:hint="Peso da nota:"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso4edit1"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:hint="Media"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/Media"
+                        />
+
+                    <EditText
+                        android:hint="Maxima"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/Maxima"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/resultadoedit11"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:text="Salvar!"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/salvaraltera1"
+                        android:textAllCaps="false" />
+
+
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

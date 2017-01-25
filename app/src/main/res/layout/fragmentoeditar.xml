@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Nome da Matéria:"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Disciplina"
+            android:ems="10"
+            android:id="@+id/MateriaText" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="Nota 1:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+
+
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:id="@+id/textView3" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota1edit"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso1edit"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/TextCx1"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota2ed"
+                        android:text="Nota 2:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/Caixa1ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota2edit"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso2edit"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/TextCx2"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota3ed"
+                        android:text="Nota 3:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/Caixa2ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota3edit"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso3edit"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+
+                    android:id="@+id/TextCx3"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textnota4ed"
+                        android:text="Nota 4:"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false" />
+
+                    <TextView
+
+                        android:text="Peso"
+                        android:layout_marginLeft="120dp"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+
+                    android:id="@+id/Caixa3ed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/nota4edit"
+                        />
+
+                    <EditText
+
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/peso4edit"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginTop="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:hint="Media"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/Mediaedit"
+                        />
+
+                    <EditText
+                        android:hint="Maxima"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal"
+                        android:text=""
+                        android:ems="10"
+                        android:id="@+id/Maximaedit"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginLeft="120dp"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Resultado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/resultadoedit1"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:text="Salvar alterações"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/salvaraltera"
+                        android:textAllCaps="false" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>
