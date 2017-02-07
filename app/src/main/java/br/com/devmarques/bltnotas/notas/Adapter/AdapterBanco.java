@@ -114,7 +114,6 @@ public class AdapterBanco extends RecyclerView.Adapter<AdapterBanco.ViewHolder> 
                         })
                         .setNegativeButton("Não", null)
                         .show();
-
                 holder.load_apagar.setVisibility(View.GONE);
             }
         });
